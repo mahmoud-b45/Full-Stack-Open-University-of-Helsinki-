@@ -10,7 +10,7 @@ const Ex1_2 = () => {
         <div>
             <Header course={course} />
             <Content parts={[part1, part2, part3,]} exercises={[exercises1, exercises2, exercises3]} />
-            <Total text="Number of exercises" total={exercises1 + exercises2 + exercises3} />
+            <Total total={exercises1 + exercises2 + exercises3} />
         </div>
     )
 }
@@ -25,6 +25,6 @@ const Content = ({ parts, exercises }) => <>
 
 const Part = (props) => <p>{props.part} {props.exercise}</p>
 
-const Total = ({ text, total }) => <p>{text} {total}</p>
+const Total = ({ total }) => <p>Number of exercises {total}</p>
 
 export default Ex1_2
