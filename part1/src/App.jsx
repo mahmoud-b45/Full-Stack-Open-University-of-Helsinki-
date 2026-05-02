@@ -2,6 +2,7 @@
 import Ex1_1 from '../courseinfo/Ex1_1.jsx'
 import Ex1_2 from '../courseinfo/Ex1_2.jsx'
 import Ex1_3 from '../courseinfo/Ex1_3.jsx'
+import Ex1_4 from '../courseinfo/Ex1_4.jsx'
 
 const App = () => {
 
@@ -10,7 +11,8 @@ const App = () => {
     <>
       {/* <Ex1_1 /> */}
       {/* <Ex1_2 /> */}
-      <Ex1_3 />
+      {/* <Ex1_3 /> */}
+      <Ex1_4 />
     </>
   )
 }
